@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Jersey+25&display=swap');
+
+*{
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+body{
+    text-align: center;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: green;
+    background-color: rgb(226, 224, 224);
+}
+
+
+#snake {
+    border: 2px solid darkgreen;
+}
+
+#snake-container {
+    margin-top: 20px;
+}
+
+
+.snake-block {
+    background-color: green;
+    border: 1px solid darkgreen;
+}
+
+.food {
+    background-color: red;
+    border: 1px solid darkred;
+}
